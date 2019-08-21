@@ -34,7 +34,7 @@ proxy:
   volumes:
     - ./proxy/app.conf:/etc/nginx/conf.d/app.conf
   ports:
-    - "8080:8080"
+    - "192.168.88.88:8099:8099"
   links:
     - coffee
   labels:
